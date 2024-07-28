@@ -1,0 +1,20 @@
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  &.add-row {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  &.edit-row {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  &.delete-row {
+    background-color: var(--error-color);
+    color: white;
+  }
+}
